@@ -1,0 +1,42 @@
+.icon-left {
+    position: absolute;
+    top: 10px;
+    left :10px;
+}
+.icon-right {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.season-display { 
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.winter {
+    background-color: skyblue;
+}
+.summer {
+    background-color: orange;
+
+}
+.season-display.winter i {
+    color: blue;
+}
+.season-display.summer i {
+    color: red;
+}
+.auther {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    color: rgb(6, 6, 58);
+}
+.project-name {
+    position: absolute;
+    top: 20px;
+    align-items: center;
+    color: rgb(6, 6, 58);
+    font-size: medium;
+}
